@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Setting Up Poetry"
 authors = ["Kabir Manandhar"]
 readme = "README.md"
+packages = [{ include = "mydemo", from = "src" }]
+
 
 [tool.poetry.dependencies]
 python = ">=3.11, <3.14"
